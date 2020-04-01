@@ -29,19 +29,19 @@ public class PaymentRepository {
         payment2.setId(2);
         payment2.setName("GooglePay");
         payment2.setCountry("USA");
-        payment1.setFee(130);
+        payment2.setFee(130);
 
         Payment payment3 = new Payment();
         payment3.setId(3);
         payment3.setName("WebMoney");
         payment3.setCountry("Russia");
-        payment1.setFee(600);
+        payment3.setFee(600);
 
         Payment payment4 = new Payment();
         payment4.setId(4);
         payment4.setName("YandexMoney");
         payment4.setCountry("Russia");
-        payment1.setFee(800);
+        payment4.setFee(800);
 
         return new ArrayList<Payment>() {{
             add(payment1);
